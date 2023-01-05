@@ -1,0 +1,59 @@
+ul, ol, dl, li, dt, dd, figure {
+  list-style: none;
+  -webkit-margin-before: 0;
+          margin-block-start: 0;
+  -webkit-margin-after: 0;
+          margin-block-end: 0;
+  -webkit-margin-start: 0;
+          margin-inline-start: 0;
+  -webkit-margin-end: 0;
+          margin-inline-end: 0;
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
+  text-align: left;
+  line-height: inherit;
+}
+
+a, :link, :active, :hover, :focus, :visited, :focus-within, :focus-visible, :target {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+iframe {
+  border: none;
+}
+
+body {
+  aspect-ratio: 1080/690;
+  width: 100vw;
+  height: auto;
+  background: #406695;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+}
+
+.c-video {
+  aspect-ratio: 1920/1080;
+  width: 100vw;
+  height: auto;
+  overflow: hidden;
+}
+.c-video__wrap {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  -webkit-margin-before: 0;
+          margin-block-start: 0;
+  -webkit-margin-after: 0;
+          margin-block-end: 0;
+  -webkit-margin-start: 0;
+          margin-inline-start: 0;
+  -webkit-margin-end: 0;
+          margin-inline-end: 0;
+}
+
+.js-video__closed {
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */

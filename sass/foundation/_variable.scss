@@ -1,0 +1,42 @@
+$textColor_White  : #FFFFFF;
+$textColor_Blue   : #406695;
+
+$textFont_English : 'Roboto';
+$textFont_Japanese: 'M+ 1m';
+$textFont_Icon    : 'Font Awesome 6 Free';
+$textFont_WeightRegular : 400;
+$textFont_WeightBold    : 700;
+
+
+$iconColor_Gray   : #808080;
+
+$linearGradientS  : #F2EDE9;
+$linearGradientE  : #DED8D3;
+
+$bgColor_BaseBlue : #406695;
+$bgColor_Footer   : #9D8670;
+
+$imgOpacity_Map   : 0.6;
+
+$navMenuWidth_PC  : 19vw;
+$headerWidth_PC   : 100vw - $navMenuWidth_PC;
+
+$mainArchiveW_PC  : 70.5vw;
+$mainArchiveW_iPad: 91vw;
+
+$headerHeight_PC  : 11.3vw;
+$searchHeight_PC  : 2.4vw;
+$footerHeight_PC  : 7.8125vw;
+
+$headerWidth_iPad : 100vw;
+$headerHeight_iPad: 26vw;
+$navMenuWidth_iPad: 44vw;
+
+$headerH_iPhone   : 58.7vw;
+$navMenuW_iPhone  : 87.5vw;
+
+$breakpoints      : (
+            iPhone:  "only screen and (max-width:599px)",
+            iPad  :  "only screen and (max-width:834px)",
+            PC    :  "only screen and (min-width:835px)",
+);

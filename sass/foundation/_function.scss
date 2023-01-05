@@ -1,0 +1,11 @@
+@use '../foundation/variable' as *;
+
+body {
+    aspect-ratio: 1080 / 690;
+    width: 100vw;
+    height: auto;
+    background: $bgColor_BaseBlue;
+    color: $textColor_White;
+    margin: 0;
+    padding: 0;
+  }

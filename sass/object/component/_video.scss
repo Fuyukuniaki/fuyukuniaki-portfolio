@@ -1,0 +1,16 @@
+@use '../../foundation/' as *;
+.c-video {
+    aspect-ratio: 1920 / 1080;
+    width: 100vw;
+    height: auto;
+    overflow: hidden;
+    &__wrap {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        margin-block-start: 0;
+        margin-block-end: 0;
+        margin-inline-start: 0;
+        margin-inline-end: 0;
+      }
+  }

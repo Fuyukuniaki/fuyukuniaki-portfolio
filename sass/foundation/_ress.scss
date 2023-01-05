@@ -1,0 +1,18 @@
+@use "./variable" as *;
+ul, ol, dl, li, dt, dd, figure {
+    list-style: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 0;
+    text-align: left;
+    line-height: inherit;
+}
+a, :link, :active, :hover, :focus, :visited, :focus-within, :focus-visible, :target {
+    color: $textColor_White;
+    text-decoration: none;
+}
+iframe {
+    border: none;
+}
